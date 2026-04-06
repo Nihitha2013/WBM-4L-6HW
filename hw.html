@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="demo">DOM!</title>
+</head>
+<body style="background-color: pink;"><center>
+    <button type="button" onclick="myFunction()">Click me</button>
+    <p id="result"></p>
+    <p id="result1"></p>
+    </center>
+
+    <script>
+        function myFunction(){
+            var title=document.getElementById("demo").innerHTML;
+            document.getElementById("result").innerHTML="Title is " +title;
+            document.getElementById("result1").innerHTML="Title is " +title;
+        }
+        
+    </script>
+    
+</body>
+</html>
